@@ -14,9 +14,15 @@ module.exports = {
     "@typescript-eslint",
     "chai-friendly",
     "import",
+    "jsx-a11y",
     "mocha-no-only",
     "only-warn",
-    "react"
+    "promise",
+    "react",
+    "react-hooks"
+  ],
+  "ignorePatterns": [
+    "**/*.html"
   ],
   "rules": {
     "@typescript-eslint/dot-notation": "off",
@@ -31,6 +37,7 @@ module.exports = {
         "requireLast": true
       }
     }],
+    "@typescript-eslint/naming-convention": "off",
     "@typescript-eslint/no-floating-promises": "warn",
     "@typescript-eslint/no-unused-expressions": "off",
     "@typescript-eslint/no-use-before-define": "off",
