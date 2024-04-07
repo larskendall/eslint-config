@@ -1,7 +1,8 @@
 module.exports = {
   "extends": [
     "airbnb-typescript",
-    "plugin:promise/recommended"
+    "plugin:promise/recommended",
+    "plugin:react-hooks/recommended"
   ],
   "parserOptions": {
     "project": "./tsconfig.json"
